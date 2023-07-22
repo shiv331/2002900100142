@@ -9,7 +9,7 @@ function App() {
 <BrowserRouter>
 <Routes>
   <Route path='/' element={<Train2></Train2>}></Route>
-  <Route path='/mytrain' element={<Train1></Train1>}></Route>
+  <Route path='/:train_no' element={<Train1></Train1>}></Route>
 </Routes>
 </BrowserRouter>
    </div>
